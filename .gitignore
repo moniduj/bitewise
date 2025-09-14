@@ -1,0 +1,19 @@
+# Environment variables
+sustainability-backend/.env
+.env
+.env.local
+.env.development
+.env.production
+
+# API keys and secrets
+*.key
+config/secrets.json
+
+# Node modules
+node_modules/
+sustainability-backend/node_modules/
+
+# Other common files to ignore
+.DS_Store
+*.log
+node_modules
