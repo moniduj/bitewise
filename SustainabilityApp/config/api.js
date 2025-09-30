@@ -2,7 +2,7 @@
 // Change this to your backend URL
 
 // For local development:
-export const API_BASE_URL = '';
+export const API_BASE_URL = 'http://localhost:8000';
 
 // For development with real device (replace with your computer's IP):
 // export const API_BASE_URL = 'http://192.168.1.100:5000';

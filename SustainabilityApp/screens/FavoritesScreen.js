@@ -54,8 +54,8 @@ const FavoritesScreen = () => {
       `Remove ${foodName} from your favorites?`,
       [
         { text: 'Cancel', style: 'cancel' },
-        { 
-          text: 'Remove', 
+        {
+          text: 'Remove',
           style: 'destructive',
           onPress: async () => {
             try {
@@ -209,4 +209,9 @@ const FavoritesScreen = () => {
           onPress={() => removeFromFavorites(item.food_id, item.food_name)}
         >
           <Ionicons name="trash-outline" size={16} color="#fff" />
-          <Text style={styles.delete
+          <Text style={styles.delete}>Delete</Text>
+        </TouchableOpacity>
+      </View>
+    );
+  };
+}
